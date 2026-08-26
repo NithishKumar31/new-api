@@ -4,7 +4,7 @@ from sqlalchemy.orm import sessionmaker
 
 # The user mentioned the database name is "employees" and they are using MySQL
 # You can change the connection string to match your actual MySQL username, password, and host.
-SQLALCHEMY_DATABASE_URL = "mysql+pymysql://root:Nithish%4031@127.0.0.1:3306/employees"
+SQLALCHEMY_DATABASE_URL = "mysql+pymysql://nithish:nithish%402026@127.0.0.1:3306/nithish"
 
 engine = create_engine(SQLALCHEMY_DATABASE_URL)
 SessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)
