@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employees API Backend</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #121212;
+            color: #e0e0e0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            text-align: center;
+        }
+        .container {
+            background-color: #1e1e1e;
+            padding: 40px 50px;
+            border-radius: 12px;
+            box-shadow: 0 8px 30px rgba(0,0,0,0.5);
+            max-width: 600px;
+        }
+        h1 {
+            color: #00b4d8;
+            margin-bottom: 10px;
+        }
+        p {
+            line-height: 1.6;
+            font-size: 1.1em;
+            color: #b0b0b0;
+        }
+        .highlight {
+            color: #ffb703;
+            font-weight: bold;
+        }
+        .code-box {
+            background-color: #000000;
+            padding: 15px;
+            border-radius: 8px;
+            font-family: 'Courier New', Courier, monospace;
+            color: #00ff00;
+            margin-top: 25px;
+            font-size: 1.2em;
+            letter-spacing: 1px;
+            border: 1px solid #333;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Employees API</h1>
+        <p>This is the GitHub Pages site for the Employees API.</p>
+        <p>Because this API is built with <span class="highlight">Python (FastAPI)</span>, it cannot run directly on GitHub Pages (which only supports static HTML sites).</p>
+        <p>To start the API, please run this command on your local computer:</p>
+        <div class="code-box">uvicorn main:app --reload</div>
+        <p style="margin-top: 20px;">Then, open your browser and go to:<br><br>
+        <b style="color: #fff;">http://127.0.0.1:8000/docs</b></p>
+    </div>
+</body>
+</html>
