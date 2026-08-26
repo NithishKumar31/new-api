@@ -3,61 +3,57 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Employees API Backend</title>
+    <title>Employees API</title>
     <style>
         body {
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            background-color: #121212;
-            color: #e0e0e0;
+            background-color: #f4f4f9;
+            color: #333;
             display: flex;
-            justify-content: center;
+            flex-direction: column;
             align-items: center;
+            justify-content: center;
             height: 100vh;
             margin: 0;
             text-align: center;
         }
         .container {
-            background-color: #1e1e1e;
-            padding: 40px 50px;
-            border-radius: 12px;
-            box-shadow: 0 8px 30px rgba(0,0,0,0.5);
+            background: white;
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
             max-width: 600px;
         }
         h1 {
-            color: #00b4d8;
-            margin-bottom: 10px;
+            color: #009688;
         }
         p {
             line-height: 1.6;
-            font-size: 1.1em;
-            color: #b0b0b0;
         }
-        .highlight {
-            color: #ffb703;
-            font-weight: bold;
-        }
-        .code-box {
-            background-color: #000000;
+        .code-block {
+            background: #2d2d2d;
+            color: #f8f8f2;
             padding: 15px;
-            border-radius: 8px;
+            border-radius: 5px;
             font-family: 'Courier New', Courier, monospace;
-            color: #00ff00;
-            margin-top: 25px;
-            font-size: 1.2em;
-            letter-spacing: 1px;
-            border: 1px solid #333;
+            text-align: left;
+            margin: 20px 0;
+            overflow-x: auto;
         }
     </style>
 </head>
 <body>
     <div class="container">
-        <h1>Employees API</h1>
-        <p>This is the GitHub Pages site for the Employees API.</p>
-        <p>Because this API is built with <span class="highlight">Python (FastAPI)</span>, it cannot run directly on GitHub Pages (which only supports static HTML sites).</p>
-        <p>To start the API, please run this command on your local computer:</p>
-        <div class="code-box">uvicorn main:app --reload</div>
-        <p style="margin-top: 20px;">Then, open your browser and go to:<br><br>
-        <b style="color: #fff;">http://127.0.0.1:8000/docs</b></p>
+        <h1>🚀 Employees API Backend</h1>
+        <p>
+            This repository contains the Python FastAPI backend code. <br>
+            <strong>GitHub Pages cannot run Python code</strong>, which is why you were seeing a 404 error. I added this page to fix the error!
+        </p>
+        <p>To run your API, open your terminal on your computer and type:</p>
+        <div class="code-block">
+            uvicorn main:app --reload
+        </div>
+        <p>Then, open your browser and go to: <strong>http://127.0.0.1:8000/docs</strong></p>
     </div>
 </body>
 </html>
